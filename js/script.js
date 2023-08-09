@@ -7,7 +7,7 @@ function displayList (country) {
 
 
 let cardWrap = document.getElementById('card-wrap');
-let file = '../data.json';
+let file = './data.json';
 // To fetch all the countries
 
 async function getCountryList() {
